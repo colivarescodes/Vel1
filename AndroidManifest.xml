@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cristian.vel1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/iconvelocidad"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Styled" >
+        <activity
+            android:name="com.cristian.vel1.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ctausuario"></activity>
+
+         <activity
+            android:name="com.cristian.vel1.patente">
+             
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>             
+             
+         </activity>
+   </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vel1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="usuarios">Administracion de Cuenta</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="envios">Envios de Reportes</string>
+    <string name="Boton">boton</string>
+    <string name="Km">Km</string>
+</resources>
